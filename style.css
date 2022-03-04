@@ -6,3 +6,24 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+/* styling h1 in container section */
+.container h1 {
+    text-align: center;
+    margin: 1em;
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 3px 5px rgb(29, 224, 143)
+}
+
+/*  styling p in container section */
+.container p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container .lead {
+    font-size: 30px;
+    font-weight: bold;
+}
