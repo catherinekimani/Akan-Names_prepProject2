@@ -22,3 +22,6 @@ This is a Web Application that takes user birthday and  calculates the day of th
 ### Support and Contact Details
 * Email:catherinekimani882@gmail.com
 * Phone: +2547 12 345678
+
+## License
+Copyright (c) 2022 [Click to view licemse](LICENSE)
