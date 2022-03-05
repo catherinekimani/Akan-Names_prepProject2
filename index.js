@@ -16,11 +16,11 @@ function findAkanName () {
     var femaleNames = ["Akosua", "Adwoa", "Abena", "Akuna", "Yaa", "Afua", "Ama"]
 
     // var date of birth
-    var dateOfBirth = new Date (date +'/' +month + '/' +year);
+    var dateOfBirth = new Date (day +'/' +month + '/' +year);
     var dayOfTheWeek = dateOfBirth.getDay();
 
     // if else statement
-    if(date < 0 || date > 31) {
+    if(day < 0 || day > 31) {
         document.getElementById("error-text").innerTextL="Enter Valid date!!!"
     } else if(year <= 0 || year > 2022){
         document.getElementById("error-text").innerText="Enter valid date!!!"
