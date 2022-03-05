@@ -66,8 +66,7 @@
               </div>
             </div>
           </div>
-        
-        </div>
+          </div>
           <!--  form -->
           <div class="container">
           <form action="">
@@ -81,14 +80,17 @@
            <div class="inputs">
            <p class="title"> Date: </p>
            <input type="number" id="date" name="date" placeholder="DD" minlength="1" maxlength="31" required>
+           <p id="error-text"></p>
            <p class="title"> Month: </p>
            <input type="number" id="month" name="month" placeholder="MM" minlength="1" maxlength="12" required>
+           <p id="error-text"></p>
            <p class="title"> Year: </p>
            <input type="number" id="year" name="year" placeholder="YYY" minlength="1" maxlength="31" required>
+           <p id="error-text"></p>
            </div>
 
-           <div class="form">
-               <input type="button" name="submit" value="submit" onclick="findAkanName()">
+           <div class="btn">
+             <button onclick="findAkanName()" name="submit" value=""></button>
            </div>
            </form>
         </div> 
