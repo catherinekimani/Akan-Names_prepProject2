@@ -67,6 +67,7 @@
             </div>
           </div>
           </div>
+          <p id="error-text"> Enter valid date!!!</p>
           <!--  form -->
           <div class="container">
           <form action="">
@@ -78,19 +79,17 @@
                 <br>
            <!-- inputs -->
            <div class="inputs">
-           <p class="title"> Date: </p>
-           <input type="number" id="date" name="date" placeholder="DD" minlength="1" maxlength="31" required>
-           <p id="error-text"></p>
+           <p class="title"> Day: </p>
+           <input type="number" id="day" name="day" placeholder="DD" min="1" max="31" required>
            <p class="title"> Month: </p>
-           <input type="number" id="month" name="month" placeholder="MM" minlength="1" maxlength="12" required>
-           <p id="error-text"></p>
+           <input type="number" id="month" name="month" placeholder="MM" min="1" max="12" required>
            <p class="title"> Year: </p>
-           <input type="number" id="year" name="year" placeholder="YYY" minlength="1" maxlength="31" required>
-           <p id="error-text"></p>
+           <input type="number" id="year" name="year" placeholder="YYY" min="1970" max="2022" required>
            </div>
 
            <div class="btn">
-             <button onclick="findAkanName()" name="submit" value=""></button>
+             <!-- <button onclick="findAkanName()" name="submit" value=""></button> -->
+             <input type="submit" id="get-name" value="Click to get Akan Name" onclick="findAkanName(); return false;"
            </div>
            </form>
         </div> 
