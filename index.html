@@ -67,11 +67,11 @@
             </div>
           </div>
           </div>
-          <p id="error-text"> Enter valid date!!!</p>
+         
           <!--  form -->
           <div class="container">
           <form action="">
-              <!-- name input -->
+              <!-- gender input -->
           <p> MALE: </p>
            <input type="radio" id="male" name="gender" value="male">
           <p> FEMALE: </p>
@@ -88,9 +88,11 @@
            </div>
 
            <div class="btn">
-             <!-- <button onclick="findAkanName()" name="submit" value=""></button> -->
-             <input type="submit" id="get-name" value="Click to get Akan Name" onclick="findAkanName(); return false;"
+             <input type="button" id="getName" value="Click to get Akan Name" onclick="findAkanName()">
            </div>
+          </div>
+          <p id="error-text"></p>
+          <p id="showName"></p>
            </form>
         </div>
 
